@@ -1,0 +1,37 @@
+<% include ./partials/header %>
+
+<style>
+    .container.main
+{
+margin-top: 7em;
+}
+
+</style>
+
+<div class="ui main text container">
+    <div class="ui huge header">Chuck Norris Quote App</div>
+    <div class="ui top attached segment">
+        <div class="ui divided items">
+                <div class="item"> 
+                    <div class="content">
+                         <div><%= data["value"] %></div>
+                    </div>
+                </div>
+                <form action="/">
+                    <button  type="submit" class="ui primary button">New Quote</button>
+                </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+ 
+
+
+
+<% include ./partials/footer %>
