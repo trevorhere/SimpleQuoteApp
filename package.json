@@ -1,0 +1,19 @@
+{
+  "name": "quoteapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "quote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorhere/SimpleQuoteApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevorhere/SimpleQuoteApp/issues"
+  },
+  "homepage": "https://github.com/trevorhere/SimpleQuoteApp#readme"
+}
