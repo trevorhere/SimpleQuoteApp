@@ -5,7 +5,7 @@
   "main": "quote.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node quote.js"
+    "start": "node quote.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/trevorhere/SimpleQuoteApp/issues"
   },
-  "homepage": "https://github.com/trevorhere/SimpleQuoteApp#readme"
+  "homepage": "https://github.com/trevorhere/SimpleQuoteApp#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "request": "^2.81.0"
+  }
 }
